@@ -37,6 +37,16 @@ dependencies:
   cupertino_icons: ^1.0.2
   firebase_core: ^2.5.0
   get: any
+  flutter_zoom_drawer: ^3.0.4+1
+  cloud_firestore: ^4.3.2
+  google_fonts: ^4.0.3
+  firebase_storage: ^11.0.14
+  cached_network_image: ^3.2.3
+  url_launcher: ^6.1.10
+  firebase_auth: ^4.3.0
+  google_sign_in: ^6.0.2
+  flutter_svg: ^2.0.4
+
 
 dev_dependencies:
   flutter_test:
@@ -48,11 +58,9 @@ dev_dependencies:
   # package. See that file for information about deactivating specific lint
   # rules and activating additional ones.
   flutter_lints: ^2.0.0
+  flutterfire_cli: ^0.2.7
   # get: ^4.6.5
-  cloud_firestore: ^4.3.2
-  google_fonts: ^4.0.3
-  firebase_storage: ^11.0.14
-  cached_network_image: ^3.2.3
+  
 
 # For information on the generic Dart part of this file, see the
 # following page: https://dart.dev/tools/pub/pubspec
@@ -99,3 +107,7 @@ flutter:
   #
   # For details regarding fonts from package dependencies,
   # see https://flutter.dev/custom-fonts/#from-packages
+  fonts:
+  - family: AppIcons
+    fonts:
+    - asset: assets/icons/AppIcons.ttf
